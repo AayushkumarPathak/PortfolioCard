@@ -92,6 +92,12 @@
     color: blue;
     text-shadow: 2px 2px 5px #FF0000;
 }
+@media(max-width:640px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+} 
 
 
 
